@@ -1,13 +1,7 @@
-class Color {
-    constructor(codeColor, nameColor) {
-        this.codeColor = codeColor;
-        this.nameColor = nameColor;
-    };
+let name = "Tharles";
+let age = "24";
 
-    getColor() {
-      return {codeColor:this.codeColor, nameColor:this.nameColor};
-    };
-}
+//let text = "name: " + name + " age: " + age;
+let text = `name: ${name} age: ${age}`;
 
-let red = new Color("red", "Red");
-console.log(red.getColor());
+console.log(text);
