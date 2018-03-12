@@ -1,2 +1,2 @@
 # iniciando-com-es6
-Repositório para salvar os códigos, exercícios e dicas do curso de ES6 da plataforma School Of Net.
+Repository for saving the codes, exercises and tips of the ES6 course of the School Of Net platform.
