@@ -1,27 +1,13 @@
-/* old solution:
+class Color {
+    constructor(codeColor, nameColor) {
+        this.codeColor = codeColor;
+        this.nameColor = nameColor;
+    };
 
-var bob = {
-    _name:"bob",
-    _friends:["Tharles","Thayna","Amaro"],
-    printFriends: function printFriends () {
+    getColor() {
+      return {codeColor:this.codeColor, nameColor:this.nameColor};
+    };
+}
 
-        var self = this;
-
-        this._friends.forEach(function (f) {
-            return console.log(self._name + " knows" + f);
-        });
-    }
-};
-
-bob.printFriends();
-*/
-
-var bob = {
-    _name:"bob",
-    _friends:["Tharles","Thayna","Amaro"],
-    printFriends: function printFriends() {
-        this._friends.forEach(f => console.log(this._name + " knows " + f));
-    }
-};
-
-bob.printFriends();
+let red = new Color("red", "Red");
+console.log(red.getColor());
